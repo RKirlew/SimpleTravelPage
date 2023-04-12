@@ -1,0 +1,202 @@
+.destination-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+  }
+  .destination-slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+.destination-carousel{
+  display:flex;
+  justify-content: center;
+ width: 900px;
+   
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.destination-slide h2, .destination-slide p {
+position: relative;
+z-index: 2;
+color: white;
+}
+#travelgo-header{
+    display: flex;
+    align-items: center;
+      justify-content: center;
+      padding: 20px;
+      margin-top: -1%;
+      width: 100%;
+      border-radius: 30px;
+      
+       text-align: center;
+}
+  .destination-slide h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 1px;
+  }
+  .destination-slide p {
+    font-size: 20px;
+    color: #fff;
+  }
+    .background-image {
+      background-image: url('https://images.unsplash.com/photo-1648062055872-92f4c36ce59c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      min-height: 90%;
+      min-width: 204px;
+      width: 100%;
+      position: relative;
+    }
+    .background-image::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+    .navbar-item:hover{
+      background-color: transparent !important;
+    }
+  .overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.tagline2{
+    display: flex; justify-content: left; flex-direction: row;
+}
+    h1.title {
+        color:white;
+       
+       
+        font-family: 'Poppins';
+        font-size: 62px;
+       
+       
+    }
+    .woman-view{
+        max-width: 40%;
+        height: auto;
+        float: left;
+        
+    }
+    .content-container{
+      z-index: 1; 
+      position: relative;
+      margin-top: 100px;
+    }
+    .main-container {
+      display: flex;
+      flex-direction: column;
+    }
+    
+      .destinations {
+      
+     
+      padding: 20px;
+      margin-top: -1%;
+      width: 100%;
+      border-radius: 30px;
+      position: relative;
+     
+      background-color: #f9ececdb;
+    }
+    #travelgo-header img {
+    border-radius: 12px;
+    max-width: 70%;
+   max-height: 100%;
+    height: auto;
+}
+.tagline3{
+    margin-left: 10px;
+}
+
+    .destinations p {
+      margin-right: 10px;
+    }
+
+    .company-icons i {
+      margin-right: 10px;
+    }
+    .navbar-item.black-text {
+      color: black;
+    }
+    .navbar-menu.is-active {
+background-color: white;
+}
+    @media (max-width: 768px) {
+      h1.title {
+        font-size: 34px;
+      } 
+      
+      #travelgo-header {
+        flex-direction: row;
+        justify-content: left;
+      }
+      .destinations-t{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }.destinations-t img{
+        width: 100%;
+        max-width: 600px;
+        
+    }
+      .tagline2 {
+        flex-direction: column;
+       
+        text-align: center;
+        justify-content: center;
+      }
+      .woman-view{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      
+    }
+    @media only screen and (max-width: 767px) {
+    #travelgo-header {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #travelgo-header img {
+      max-width: 60%;
+     height: auto;
+    }
+
+    #travelgo-header h1 {
+      font-size: 24px;
+    }
+}
