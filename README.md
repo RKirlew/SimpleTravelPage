@@ -1,2 +1,2 @@
 # SimpleTravelPage
-<img src="screenshot.png">
+<img src="travel-again.png">
